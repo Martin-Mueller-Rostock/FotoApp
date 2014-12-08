@@ -1,0 +1,17 @@
+.sapUIMeOverlapCalendar {
+}
+.sapMeOverlapCalendarGrid{
+	
+}
+.sapMeOverlapCalendarRow{
+	
+}
+.sapMeOverlapCalendarDay{
+	text-align: center;
+	display: inline-block;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	padding: 15px 0px;
+	border: 1px solid gray;
+}

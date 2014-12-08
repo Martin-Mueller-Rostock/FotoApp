@@ -1,0 +1,1716 @@
+{
+  "modules" : [
+    {
+      "name" : "sap/m/ActionListItem.js",
+      "description" : "Provides control sap.m.ActionListItem.",
+      "size" : 3857,
+      "compressedSize" : 576,
+      "required" : ["sap/m/library.js", "sap/m/ListItemBase.js", "sap/ui/core/EnabledPropagator.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ActionListItemRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 1128,
+      "compressedSize" : 590,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/ListItemBaseRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ActionSelect.js",
+      "description" : "Provides control sap.m.ActionSelect.",
+      "size" : 7018,
+      "compressedSize" : 1260,
+      "required" : ["sap/m/library.js", "sap/m/Select.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ActionSelectRenderer.js",
+      "size" : 978,
+      "compressedSize" : 491,
+      "required" : ["sap/m/SelectRenderer.js", "sap/ui/core/Renderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ActionSheet.js",
+      "description" : "Provides control sap.m.ActionSheet.",
+      "size" : 39836,
+      "compressedSize" : 9493,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/m/Dialog.js", "sap/m/Popover.js", "sap/ui/core/delegate/ItemNavigation.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ActionSheetRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 1622,
+      "compressedSize" : 791,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/App.js",
+      "description" : "Provides control sap.m.App.",
+      "size" : 15076,
+      "compressedSize" : 2424,
+      "required" : ["sap/m/library.js", "sap/m/NavContainer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/AppRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 850,
+      "compressedSize" : 683,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/NavContainerRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Bar.js",
+      "description" : "Provides control sap.m.Bar.",
+      "size" : 25870,
+      "compressedSize" : 4981,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/m/BarInPageEnabler.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/BarInPageEnabler.js",
+      "description" : "Provides helper sap.m.BarInPageEnabler",
+      "size" : 5132,
+      "compressedSize" : 1939,
+      "required" : ["sap/ui/base/Object.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/BarRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 4575,
+      "compressedSize" : 2078,
+      "required" : ["sap/ui/core/Renderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/BusyDialog.js",
+      "description" : "Provides control sap.m.BusyDialog.",
+      "size" : 23301,
+      "compressedSize" : 7432,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/Popup.js", "sap/ui/core/theming/Parameters.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/BusyDialogRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 1793,
+      "compressedSize" : 1037,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/BusyIndicator.js",
+      "description" : "Provides control sap.m.BusyIndicator.",
+      "size" : 22664,
+      "compressedSize" : 7899,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/theming/Parameters.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/BusyIndicatorRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 3676,
+      "compressedSize" : 2208,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Button.js",
+      "description" : "Provides control sap.m.Button.",
+      "size" : 29252,
+      "compressedSize" : 8163,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/EnabledPropagator.js", "sap/ui/core/theming/Parameters.js", "sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ButtonRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 5521,
+      "compressedSize" : 2775,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Carousel.js",
+      "description" : "Provides control sap.m.Carousel.",
+      "size" : 41867,
+      "compressedSize" : 10108,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/thirdparty/mobify-carousel.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/CarouselRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 4353,
+      "compressedSize" : 1943,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/CheckBox.js",
+      "description" : "Provides control sap.m.CheckBox.",
+      "size" : 15477,
+      "compressedSize" : 3149,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/EnabledPropagator.js", "sap/m/Label.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/CheckBoxRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 2301,
+      "compressedSize" : 1250,
+      "required" : ["sap/ui/core/ValueStateSupport.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Column.js",
+      "description" : "Provides control sap.m.Column.",
+      "size" : 28876,
+      "compressedSize" : 7390,
+      "required" : ["sap/m/library.js", "sap/ui/core/Element.js", "sap/ui/core/Renderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ColumnListItem.js",
+      "description" : "Provides control sap.m.ColumnListItem.",
+      "size" : 10771,
+      "compressedSize" : 2237,
+      "required" : ["sap/m/library.js", "sap/m/ListItemBase.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ColumnListItemRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 5042,
+      "compressedSize" : 2685,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/ListRenderer.js", "sap/m/ListItemBaseRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ComboBox.js",
+      "description" : "Provides control sap.m.ComboBox.",
+      "size" : 44189,
+      "compressedSize" : 14502,
+      "required" : ["sap/m/library.js", "sap/m/ComboBoxBase.js", "sap/m/ComboBoxRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ComboBoxBase.js",
+      "description" : "Provides control sap.m.ComboBoxBase.",
+      "size" : 33478,
+      "compressedSize" : 8062,
+      "required" : ["sap/m/library.js", "sap/m/InputBase.js", "sap/ui/core/EnabledPropagator.js", "sap/m/ComboBoxBaseRenderer.js", "sap/m/Bar.js", "sap/m/List.js", "sap/m/Popover.js", "sap/m/Dialog.js", "sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ComboBoxBaseRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 2951,
+      "compressedSize" : 1150,
+      "required" : ["sap/m/InputBaseRenderer.js", "sap/ui/core/Renderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ComboBoxRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 1556,
+      "compressedSize" : 751,
+      "required" : ["sap/m/InputBaseRenderer.js", "sap/ui/core/Renderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/CustomListItem.js",
+      "description" : "Provides control sap.m.CustomListItem.",
+      "size" : 6787,
+      "compressedSize" : 456,
+      "required" : ["sap/m/library.js", "sap/m/ListItemBase.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/CustomListItemRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 1116,
+      "compressedSize" : 572,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/ListItemBaseRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/CustomTile.js",
+      "description" : "Provides control sap.m.CustomTile.",
+      "size" : 3887,
+      "compressedSize" : 390,
+      "required" : ["sap/m/library.js", "sap/m/Tile.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/CustomTileRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 1320,
+      "compressedSize" : 751,
+      "required" : ["sap/m/TileRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/DatePicker.js",
+      "description" : "Provides control sap.m.DatePicker.",
+      "size" : 22525,
+      "compressedSize" : 9416,
+      "required" : ["sap/m/library.js", "sap/m/InputBase.js", "sap/ui/model/type/Date.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/DatePickerRenderer.js",
+      "size" : 3438,
+      "compressedSize" : 1558,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/InputBaseRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/DateRangeSelection.js",
+      "description" : "Provides control sap.m.DateRangeSelection.",
+      "size" : 25511,
+      "compressedSize" : 8000,
+      "required" : ["sap/m/library.js", "sap/m/DatePicker.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/DateRangeSelectionRenderer.js",
+      "size" : 890,
+      "compressedSize" : 503,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/DatePickerRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/DateTimeInput.js",
+      "description" : "Provides control sap.m.DateTimeInput.",
+      "size" : 36664,
+      "compressedSize" : 13105,
+      "required" : ["sap/m/library.js", "sap/m/InputBase.js", "sap/ui/core/theming/Parameters.js", "sap/ui/model/type/Date.js", "sap/ui/thirdparty/mobiscroll/js/mobiscroll-core.js", "sap/ui/thirdparty/mobiscroll/js/mobiscroll-scroller.js", "sap/ui/thirdparty/mobiscroll/js/mobiscroll-datetime.js", "sap/ui/core/IconPool.js", "sap/m/InstanceManager.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/DateTimeInputRenderer.js",
+      "size" : 1724,
+      "compressedSize" : 633,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/InputBaseRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Dialog.js",
+      "description" : "Provides control sap.m.Dialog.",
+      "size" : 82513,
+      "compressedSize" : 24197,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/Popup.js", "sap/m/Bar.js", "sap/m/Toolbar.js", "sap/m/ToolbarSpacer.js", "sap/ui/core/delegate/ScrollEnablement.js", "sap/m/InstanceManager.js", "sap/ui/core/IconPool.js", "sap/ui/core/theming/Parameters.js", "sap/ui/core/ValueState.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/DialogRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 4308,
+      "compressedSize" : 2308,
+      "required" : ["sap/m/BarRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/DisplayListItem.js",
+      "description" : "Provides control sap.m.DisplayListItem.",
+      "size" : 4502,
+      "compressedSize" : 441,
+      "required" : ["sap/m/library.js", "sap/m/ListItemBase.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/DisplayListItemRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 1385,
+      "compressedSize" : 772,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/ListItemBaseRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/FacetFilter.js",
+      "description" : "Provides control sap.m.FacetFilter.",
+      "size" : 64459,
+      "compressedSize" : 24491,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/IconPool.js", "sap/m/NavContainer.js", "sap/ui/core/delegate/ItemNavigation.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/FacetFilterItem.js",
+      "description" : "Provides control sap.m.FacetFilterItem.",
+      "size" : 5845,
+      "compressedSize" : 861,
+      "required" : ["sap/m/library.js", "sap/m/ListItemBase.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/FacetFilterItemRenderer.js",
+      "description" : "@copyright",
+      "size" : 846,
+      "compressedSize" : 434,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/ListItemBaseRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/FacetFilterList.js",
+      "description" : "Provides control sap.m.FacetFilterList.",
+      "size" : 35216,
+      "compressedSize" : 8243,
+      "required" : ["sap/m/library.js", "sap/m/List.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/FacetFilterListRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 496,
+      "compressedSize" : 383,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/ListRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/FacetFilterRenderer.js",
+      "description" : "@copyright",
+      "size" : 3691,
+      "compressedSize" : 1837,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/FeedInput.js",
+      "description" : "Provides control sap.m.FeedInput.",
+      "size" : 16053,
+      "compressedSize" : 3263,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/IconPool.js", "sap/ui/core/HTML.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/FeedInputRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 1530,
+      "compressedSize" : 917,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/FeedListItem.js",
+      "description" : "Provides control sap.m.FeedListItem.",
+      "size" : 23818,
+      "compressedSize" : 4671,
+      "required" : ["sap/m/library.js", "sap/m/ListItemBase.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/FeedListItemRenderer.js",
+      "description" : "Provides default renderer for the sap.m.FeedListItem",
+      "size" : 6739,
+      "compressedSize" : 3952,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/ListItemBaseRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/FlexBox.js",
+      "description" : "Provides control sap.m.FlexBox.",
+      "size" : 18559,
+      "compressedSize" : 4309,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/m/FlexBoxStylingHelper.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/FlexBoxCssPropertyMap.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 3313,
+      "compressedSize" : 2462,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/FlexBoxRenderer.js",
+      "size" : 4426,
+      "compressedSize" : 2515,
+      "required" : ["sap/m/FlexBoxStylingHelper.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/FlexBoxStylingHelper.js",
+      "size" : 11956,
+      "compressedSize" : 4254,
+      "required" : ["sap/m/FlexBoxCssPropertyMap.js", "sap/ui/thirdparty/flexie.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/FlexItemData.js",
+      "description" : "Provides control sap.m.FlexItemData.",
+      "size" : 8501,
+      "compressedSize" : 1359,
+      "required" : ["sap/m/library.js", "sap/ui/core/LayoutData.js", "sap/m/FlexBoxStylingHelper.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/GroupHeaderListItem.js",
+      "description" : "Provides control sap.m.GroupHeaderListItem.",
+      "size" : 6286,
+      "compressedSize" : 864,
+      "required" : ["sap/m/library.js", "sap/m/ListItemBase.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/GroupHeaderListItemRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 2048,
+      "compressedSize" : 947,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/ListItemBaseRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/GrowingEnablement.js",
+      "description" : "Provides class sap.m.GrowingEnablement",
+      "size" : 27397,
+      "compressedSize" : 12466,
+      "required" : ["sap/ui/base/Object.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/GrowingList.js",
+      "description" : "Provides control sap.m.GrowingList.",
+      "size" : 7253,
+      "compressedSize" : 1115,
+      "required" : ["sap/m/library.js", "sap/m/List.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/GrowingListRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 982,
+      "compressedSize" : 622,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/ListRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/HBox.js",
+      "description" : "Provides control sap.m.HBox.",
+      "size" : 3017,
+      "compressedSize" : 286,
+      "required" : ["sap/m/library.js", "sap/m/FlexBox.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/HBoxRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 747,
+      "compressedSize" : 313,
+      "required" : ["sap/m/FlexBoxRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/IconTabBar.js",
+      "description" : "Provides control sap.m.IconTabBar.",
+      "size" : 30335,
+      "compressedSize" : 5618,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/IconTabBarRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 2416,
+      "compressedSize" : 1188,
+      "required" : ["sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/IconTabFilter.js",
+      "description" : "Provides control sap.m.IconTabFilter.",
+      "size" : 14301,
+      "compressedSize" : 1965,
+      "required" : ["sap/m/library.js", "sap/ui/core/Item.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/IconTabHeader.js",
+      "description" : "Provides control sap.m.IconTabHeader.",
+      "size" : 39554,
+      "compressedSize" : 14799,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/delegate/ItemNavigation.js", "sap/ui/core/EnabledPropagator.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/IconTabHeaderRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 5388,
+      "compressedSize" : 3375,
+      "required" : ["sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/IconTabSeparator.js",
+      "description" : "Provides control sap.m.IconTabSeparator.",
+      "size" : 5744,
+      "compressedSize" : 948,
+      "required" : ["sap/m/library.js", "sap/ui/core/Element.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Image.js",
+      "description" : "Provides control sap.m.Image.",
+      "size" : 24802,
+      "compressedSize" : 4544,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ImageRenderer.js",
+      "description" : "Provides default renderer for control sap.m.Image",
+      "size" : 2642,
+      "compressedSize" : 1123,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Input.js",
+      "description" : "Provides control sap.m.Input.",
+      "size" : 88872,
+      "compressedSize" : 25601,
+      "required" : ["sap/m/library.js", "sap/m/InputBase.js", "jquery.sap.strings.js", "sap/m/Dialog.js", "sap/m/Popover.js", "sap/m/List.js", "sap/m/Table.js", "sap/m/StandardListItem.js", "sap/m/Bar.js", "sap/m/Toolbar.js", "sap/m/ToolbarSpacer.js", "sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/InputBase.js",
+      "description" : "Provides control sap.m.InputBase.",
+      "size" : 31527,
+      "compressedSize" : 7743,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/EnabledPropagator.js", "sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/InputBaseRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 9283,
+      "compressedSize" : 3209,
+      "required" : ["sap/ui/core/ValueStateSupport.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/InputListItem.js",
+      "description" : "Provides control sap.m.InputListItem.",
+      "size" : 7195,
+      "compressedSize" : 522,
+      "required" : ["sap/m/library.js", "sap/m/ListItemBase.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/InputListItemRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 1413,
+      "compressedSize" : 775,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/ListItemBaseRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/InputRenderer.js",
+      "size" : 3923,
+      "compressedSize" : 1549,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/InputBaseRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/InstanceManager.js",
+      "description" : "Provides class sap.m.InstanceManager",
+      "size" : 11321,
+      "compressedSize" : 2664,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Label.js",
+      "description" : "Provides control sap.m.Label.",
+      "size" : 10209,
+      "compressedSize" : 1416,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/LabelRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 2790,
+      "compressedSize" : 1359,
+      "required" : ["sap/ui/core/Renderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Link.js",
+      "description" : "Provides control sap.m.Link.",
+      "size" : 14705,
+      "compressedSize" : 2826,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/EnabledPropagator.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/LinkRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 1859,
+      "compressedSize" : 1065,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/List.js",
+      "description" : "Provides control sap.m.List.",
+      "size" : 8239,
+      "compressedSize" : 1112,
+      "required" : ["sap/m/library.js", "sap/m/ListBase.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ListBase.js",
+      "description" : "Provides control sap.m.ListBase.",
+      "size" : 92212,
+      "compressedSize" : 21869,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/theming/Parameters.js", "sap/ui/core/delegate/ItemNavigation.js", "sap/m/GroupHeaderListItem.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ListBaseRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 5947,
+      "compressedSize" : 2569,
+      "required" : ["sap/ui/core/theming/Parameters.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ListItemBase.js",
+      "description" : "Provides control sap.m.ListItemBase.",
+      "size" : 31693,
+      "compressedSize" : 10366,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/theming/Parameters.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ListItemBaseRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 10014,
+      "compressedSize" : 5979,
+      "required" : ["sap/ui/core/theming/Parameters.js", "sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ListRenderer.js",
+      "size" : 1469,
+      "compressedSize" : 780,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/ListBaseRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/MessageBox.js",
+      "description" : "Provides class sap.m.MessageBox",
+      "size" : 14775,
+      "compressedSize" : 3319,
+      "required" : ["sap/m/Button.js", "sap/m/Dialog.js", "sap/m/Text.js", "sap/ui/core/IconPool.js", "sap/ui/core/theming/Parameters.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/MessageToast.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 15571,
+      "compressedSize" : 6708,
+      "required" : ["sap/ui/core/Popup.js", "sap/m/InstanceManager.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/MultiComboBox.js",
+      "description" : "Provides control sap.m.MultiComboBox.",
+      "size" : 68366,
+      "compressedSize" : 29012,
+      "required" : ["sap/m/library.js", "sap/m/ComboBoxBase.js", "sap/ui/core/EnabledPropagator.js", "sap/m/MultiComboBoxRenderer.js", "sap/m/Bar.js", "sap/m/List.js", "sap/m/Popover.js", "sap/m/Dialog.js", "sap/ui/core/IconPool.js", "jquery.sap.xml.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/MultiComboBoxRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 2490,
+      "compressedSize" : 1381,
+      "required" : ["sap/m/InputBaseRenderer.js", "sap/ui/core/Renderer.js", "sap/ui/core/ValueStateSupport.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/MultiInput.js",
+      "description" : "Provides control sap.m.MultiInput.",
+      "size" : 22546,
+      "compressedSize" : 8683,
+      "required" : ["sap/m/library.js", "sap/m/Input.js", "sap/ui/core/Item.js", "sap/m/Token.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/MultiInputRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 1150,
+      "compressedSize" : 947,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/InputRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/NavContainer.js",
+      "description" : "Provides control sap.m.NavContainer.",
+      "size" : 87552,
+      "compressedSize" : 21535,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/NavContainerRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 1596,
+      "compressedSize" : 698,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ObjectAttribute.js",
+      "description" : "Provides control sap.m.ObjectAttribute.",
+      "size" : 10560,
+      "compressedSize" : 1797,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ObjectAttributeRenderer.js",
+      "description" : "@copyright",
+      "size" : 1172,
+      "compressedSize" : 585,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ObjectHeader.js",
+      "description" : "Provides control sap.m.ObjectHeader.",
+      "size" : 46714,
+      "compressedSize" : 7797,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ObjectHeaderRenderer.js",
+      "description" : "@copyright",
+      "size" : 31342,
+      "compressedSize" : 15237,
+      "required" : ["sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ObjectIdentifier.js",
+      "description" : "Provides control sap.m.ObjectIdentifier.",
+      "size" : 11166,
+      "compressedSize" : 2256,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ObjectIdentifierRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 2472,
+      "compressedSize" : 1391,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ObjectListItem.js",
+      "description" : "Provides control sap.m.ObjectListItem.",
+      "size" : 21283,
+      "compressedSize" : 4094,
+      "required" : ["sap/m/library.js", "sap/m/ListItemBase.js", "sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ObjectListItemRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 6385,
+      "compressedSize" : 3353,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/ListItemBaseRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ObjectNumber.js",
+      "description" : "Provides control sap.m.ObjectNumber.",
+      "size" : 8617,
+      "compressedSize" : 1053,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ObjectNumberRenderer.js",
+      "description" : "@copyright",
+      "size" : 1613,
+      "compressedSize" : 774,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ObjectStatus.js",
+      "description" : "Provides control sap.m.ObjectStatus.",
+      "size" : 9455,
+      "compressedSize" : 1746,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ObjectStatusRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 1756,
+      "compressedSize" : 961,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Page.js",
+      "description" : "Provides control sap.m.Page.",
+      "size" : 34366,
+      "compressedSize" : 6857,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/PageRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 2849,
+      "compressedSize" : 1365,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Panel.js",
+      "description" : "Provides control sap.m.Panel.",
+      "size" : 18292,
+      "compressedSize" : 2644,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/PanelRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 3295,
+      "compressedSize" : 1595,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Popover.js",
+      "description" : "Provides control sap.m.Popover.",
+      "size" : 98260,
+      "compressedSize" : 30415,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/Popup.js", "sap/m/Bar.js", "sap/m/Button.js", "sap/ui/core/delegate/ScrollEnablement.js", "sap/m/InstanceManager.js", "sap/ui/core/theming/Parameters.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/PopoverRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 6415,
+      "compressedSize" : 3401,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ProgressIndicator.js",
+      "description" : "Provides control sap.m.ProgressIndicator.",
+      "size" : 11508,
+      "compressedSize" : 1943,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ProgressIndicatorRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 2737,
+      "compressedSize" : 1493,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/PullToRefresh.js",
+      "description" : "Provides control sap.m.PullToRefresh.",
+      "size" : 17070,
+      "compressedSize" : 5355,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/theming/Parameters.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/PullToRefreshRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 2244,
+      "compressedSize" : 1235,
+      "required" : ["sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/RadioButton.js",
+      "description" : "Provides control sap.m.RadioButton.",
+      "size" : 17765,
+      "compressedSize" : 3789,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/EnabledPropagator.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/RadioButtonRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 3301,
+      "compressedSize" : 1566,
+      "required" : ["sap/ui/core/ValueStateSupport.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/RatingIndicator.js",
+      "description" : "Provides control sap.m.RatingIndicator.",
+      "size" : 37495,
+      "compressedSize" : 9556,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/IconPool.js", "sap/ui/core/theming/Parameters.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/RatingIndicatorRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 5296,
+      "compressedSize" : 2171,
+      "required" : ["sap/ui/core/theming/Parameters.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ResponsivePopover.js",
+      "description" : "Provides control sap.m.ResponsivePopover.",
+      "size" : 45742,
+      "compressedSize" : 8658,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/IconPool.js", "sap/m/Popover.js", "sap/m/Dialog.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ResponsivePopoverRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 669,
+      "compressedSize" : 262,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ScrollContainer.js",
+      "description" : "Provides control sap.m.ScrollContainer.",
+      "size" : 14174,
+      "compressedSize" : 1944,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ScrollContainerRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 1681,
+      "compressedSize" : 884,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/SearchField.js",
+      "description" : "Provides control sap.m.SearchField.",
+      "size" : 26338,
+      "compressedSize" : 5289,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/EnabledPropagator.js", "sap/ui/core/IconPool.js", "sap/ui/core/theming/Parameters.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/SearchFieldRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 3630,
+      "compressedSize" : 2041,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/SegmentedButton.js",
+      "description" : "Provides control sap.m.SegmentedButton.",
+      "size" : 26772,
+      "compressedSize" : 7893,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/delegate/ItemNavigation.js", "sap/ui/core/EnabledPropagator.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/SegmentedButtonRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 2769,
+      "compressedSize" : 1465,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Select.js",
+      "description" : "Provides control sap.m.Select.",
+      "size" : 68355,
+      "compressedSize" : 18385,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/EnabledPropagator.js", "sap/m/SelectRenderer.js", "sap/m/InputBase.js", "sap/m/Bar.js", "sap/m/List.js", "sap/m/Popover.js", "sap/m/Dialog.js", "sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/SelectDialog.js",
+      "description" : "Provides control sap.m.SelectDialog.",
+      "size" : 54045,
+      "compressedSize" : 13338,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/m/Button.js", "sap/m/Dialog.js", "sap/m/List.js", "sap/m/SearchField.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/SelectDialogRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 649,
+      "compressedSize" : 247,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/SelectRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 5887,
+      "compressedSize" : 2411,
+      "required" : ["sap/ui/core/ValueStateSupport.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Shell.js",
+      "description" : "Provides control sap.m.Shell.",
+      "size" : 18929,
+      "compressedSize" : 2833,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ShellRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 3563,
+      "compressedSize" : 2380,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Slider.js",
+      "description" : "Provides control sap.m.Slider.",
+      "size" : 35911,
+      "compressedSize" : 8836,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/EnabledPropagator.js", "sap/m/SliderRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/SliderRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 3245,
+      "compressedSize" : 2031,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/SplitApp.js",
+      "description" : "Provides control sap.m.SplitApp.",
+      "size" : 10202,
+      "compressedSize" : 1787,
+      "required" : ["sap/m/library.js", "sap/m/SplitContainer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/SplitAppRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 893,
+      "compressedSize" : 723,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/SplitContainerRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/SplitContainer.js",
+      "description" : "Provides control sap.m.SplitContainer.",
+      "size" : 120712,
+      "compressedSize" : 26439,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/theming/Parameters.js", "sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/SplitContainerRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 2589,
+      "compressedSize" : 1522,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/StandardListItem.js",
+      "description" : "Provides control sap.m.StandardListItem.",
+      "size" : 12175,
+      "compressedSize" : 2058,
+      "required" : ["sap/m/library.js", "sap/m/ListItemBase.js", "sap/ui/core/EnabledPropagator.js", "sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/StandardListItemRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 4614,
+      "compressedSize" : 3141,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/ListItemBaseRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/StandardTile.js",
+      "description" : "Provides control sap.m.StandardTile.",
+      "size" : 10851,
+      "compressedSize" : 1620,
+      "required" : ["sap/m/library.js", "sap/m/Tile.js", "sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/StandardTileRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 3059,
+      "compressedSize" : 1951,
+      "required" : ["sap/m/TileRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Support.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 12188,
+      "compressedSize" : 6124,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Switch.js",
+      "description" : "Provides control sap.m.Switch.",
+      "size" : 21106,
+      "compressedSize" : 5111,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/EnabledPropagator.js", "sap/ui/core/theming/Parameters.js", "sap/ui/core/IconPool.js", "sap/m/SwitchRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/SwitchRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 3638,
+      "compressedSize" : 2147,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Table.js",
+      "description" : "Provides control sap.m.Table.",
+      "size" : 20966,
+      "compressedSize" : 6636,
+      "required" : ["sap/m/library.js", "sap/m/ListBase.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/TablePersoController.js",
+      "description" : "Provides TablePersoController",
+      "size" : 20921,
+      "compressedSize" : 8766,
+      "required" : ["sap/ui/base/ManagedObject.js", "sap/m/TablePersoDialog.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/TablePersoDialog.js",
+      "description" : "Provides TablePersoDialog",
+      "size" : 18840,
+      "compressedSize" : 9913,
+      "required" : ["sap/ui/base/ManagedObject.js", "sap/m/InputListItem.js", "sap/m/Dialog.js", "sap/m/List.js", "sap/m/Toolbar.js", "sap/m/Button.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/TablePersoProvider.js",
+      "description" : "Provides TablePersoProvider",
+      "size" : 4134,
+      "compressedSize" : 1261,
+      "required" : ["sap/ui/base/ManagedObject.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/TableRenderer.js",
+      "size" : 5784,
+      "compressedSize" : 3511,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/ListBaseRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/TableSelectDialog.js",
+      "description" : "Provides control sap.m.TableSelectDialog.",
+      "size" : 55389,
+      "compressedSize" : 13457,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/m/Button.js", "sap/m/Dialog.js", "sap/m/Table.js", "sap/m/SearchField.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/TableSelectDialogRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 664,
+      "compressedSize" : 262,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Text.js",
+      "description" : "Provides control sap.m.Text.",
+      "size" : 17021,
+      "compressedSize" : 3251,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/TextArea.js",
+      "description" : "Provides control sap.m.TextArea.",
+      "size" : 13152,
+      "compressedSize" : 2473,
+      "required" : ["sap/m/library.js", "sap/m/InputBase.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/TextAreaRenderer.js",
+      "size" : 1933,
+      "compressedSize" : 1134,
+      "required" : ["sap/ui/core/Renderer.js", "sap/m/InputBaseRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/TextRenderer.js",
+      "description" : "Provides default renderer for control sap.m.Text",
+      "size" : 3175,
+      "compressedSize" : 1402,
+      "required" : ["sap/ui/core/Renderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Tile.js",
+      "description" : "Provides control sap.m.Tile.",
+      "size" : 10698,
+      "compressedSize" : 2774,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/TileContainer.js",
+      "description" : "Provides control sap.m.TileContainer.",
+      "size" : 57632,
+      "compressedSize" : 23184,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/TileContainerRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 1996,
+      "compressedSize" : 1352,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/TileRenderer.js",
+      "description" : "Provides default renderer for control sap.m.Text",
+      "size" : 1499,
+      "compressedSize" : 854,
+      "required" : ["sap/ui/core/Renderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ToggleButton.js",
+      "description" : "Provides control sap.m.ToggleButton.",
+      "size" : 4861,
+      "compressedSize" : 1008,
+      "required" : ["sap/m/library.js", "sap/m/Button.js", "sap/ui/core/EnabledPropagator.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ToggleButtonRenderer.js",
+      "description" : "Provides default renderer for control sap.ui.commons.Togglebutton",
+      "size" : 1096,
+      "compressedSize" : 487,
+      "required" : ["sap/m/ButtonRenderer.js", "sap/ui/core/Renderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Token.js",
+      "description" : "Provides control sap.m.Token.",
+      "size" : 15571,
+      "compressedSize" : 2548,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/TokenRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 1840,
+      "compressedSize" : 704,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Tokenizer.js",
+      "description" : "Provides control sap.m.Tokenizer.",
+      "size" : 27254,
+      "compressedSize" : 9757,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/TokenizerRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 1807,
+      "compressedSize" : 709,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/Toolbar.js",
+      "description" : "Provides control sap.m.Toolbar.",
+      "size" : 31544,
+      "compressedSize" : 9155,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/m/ToolbarSpacer.js", "sap/m/ToolbarDesign.js", "sap/m/BarInPageEnabler.js", "sap/m/ToolbarLayoutData.js", "sap/ui/core/ResizeHandler.js", "sap/ui/core/EnabledPropagator.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ToolbarLayoutData.js",
+      "description" : "Provides control sap.m.ToolbarLayoutData.",
+      "size" : 6383,
+      "compressedSize" : 879,
+      "required" : ["sap/m/library.js", "sap/ui/core/LayoutData.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ToolbarRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 2049,
+      "compressedSize" : 1023,
+      "required" : ["sap/ui/core/Renderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ToolbarSpacer.js",
+      "description" : "Provides control sap.m.ToolbarSpacer.",
+      "size" : 3982,
+      "compressedSize" : 450,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ToolbarSpacerRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 663,
+      "compressedSize" : 514,
+      "required" : ["sap/ui/core/Renderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/VBox.js",
+      "description" : "Provides control sap.m.VBox.",
+      "size" : 3015,
+      "compressedSize" : 286,
+      "required" : ["sap/m/library.js", "sap/m/FlexBox.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/VBoxRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 747,
+      "compressedSize" : 313,
+      "required" : ["sap/m/FlexBoxRenderer.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ViewSettingsCustomItem.js",
+      "description" : "Provides control sap.m.ViewSettingsCustomItem.",
+      "size" : 6917,
+      "compressedSize" : 1056,
+      "required" : ["sap/m/library.js", "sap/m/ViewSettingsItem.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ViewSettingsDialog.js",
+      "description" : "Provides control sap.m.ViewSettingsDialog.",
+      "size" : 82526,
+      "compressedSize" : 26197,
+      "required" : ["sap/m/library.js", "sap/ui/core/Control.js", "sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ViewSettingsDialogRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 681,
+      "compressedSize" : 265,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ViewSettingsFilterItem.js",
+      "description" : "Provides control sap.m.ViewSettingsFilterItem.",
+      "size" : 6729,
+      "compressedSize" : 508,
+      "required" : ["sap/m/library.js", "sap/m/ViewSettingsItem.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ViewSettingsItem.js",
+      "description" : "Provides control sap.m.ViewSettingsItem.",
+      "size" : 3834,
+      "compressedSize" : 393,
+      "required" : ["sap/m/library.js", "sap/ui/core/Item.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/ios7.js",
+      "description" : "declare unusual global vars for JSLint/SAPUI5 validation",
+      "size" : 6470,
+      "compressedSize" : 3317,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/library.js",
+      "description" : "Initialization Code and shared classes of library sap.m (1.24.2)",
+      "size" : 81129,
+      "compressedSize" : 18199,
+      "required" : ["sap/ui/core/Core.js", "sap/ui/core/library.js", "jquery.sap.mobile.js", "sap/m/Support.js", "sap/ui/Device.js", "sap/m/ios7.js", "jquery.sap.global.js"],
+      "includes" : ["sap/m/BackgroundDesign.js", "sap/m/BarDesign.js", "sap/m/ButtonType.js", "sap/m/DateTimeInputType.js", "sap/m/DialogType.js", "sap/m/FacetFilterListDataType.js", "sap/m/FacetFilterType.js", "sap/m/FlexAlignItems.js", "sap/m/FlexAlignSelf.js", "sap/m/FlexDirection.js", "sap/m/FlexJustifyContent.js", "sap/m/FlexRendertype.js", "sap/m/HeaderLevel.js", "sap/m/IBarHTMLTag.js", "sap/m/IconTabFilterDesign.js", "sap/m/InputType.js", "sap/m/LabelDesign.js", "sap/m/ListHeaderDesign.js", "sap/m/ListMode.js", "sap/m/ListSeparators.js", "sap/m/ListType.js", "sap/m/PageBackgroundDesign.js", "sap/m/PlacementType.js", "sap/m/PopinDisplay.js", "sap/m/RatingIndicatorVisualMode.js", "sap/m/ScreenSize.js", "sap/m/SelectType.js", "sap/m/SplitAppMode.js", "sap/m/StandardTileType.js", "sap/m/SwipeDirection.js", "sap/m/SwitchType.js", "sap/m/ToolbarDesign.js"]
+    },
+    {
+      "name" : "sap/m/library.properties",
+      "size" : 5704,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle.properties",
+      "size" : 8812,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_ar.properties",
+      "size" : 11866,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_bg.properties",
+      "size" : 12757,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_ca.properties",
+      "size" : 8743,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_cs.properties",
+      "size" : 8946,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_da.properties",
+      "size" : 8531,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_de.properties",
+      "size" : 8687,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_el.properties",
+      "size" : 12608,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_en.properties",
+      "size" : 8445,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_es.properties",
+      "size" : 8682,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_et.properties",
+      "size" : 8644,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_fi.properties",
+      "size" : 8840,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_fr.properties",
+      "size" : 8844,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_hi.properties",
+      "size" : 12347,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_hr.properties",
+      "size" : 8695,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_hu.properties",
+      "size" : 9253,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_it.properties",
+      "size" : 8727,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_iw.properties",
+      "size" : 10875,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_ja.properties",
+      "size" : 9934,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_ko.properties",
+      "size" : 9529,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_lt.properties",
+      "size" : 8914,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_lv.properties",
+      "size" : 9027,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_nl.properties",
+      "size" : 8584,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_no.properties",
+      "size" : 8560,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_pl.properties",
+      "size" : 8859,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_pt.properties",
+      "size" : 8665,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_ro.properties",
+      "size" : 8886,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_ru.properties",
+      "size" : 12641,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_sh.properties",
+      "size" : 8678,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_sk.properties",
+      "size" : 9074,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_sl.properties",
+      "size" : 8672,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_sv.properties",
+      "size" : 8600,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_th.properties",
+      "size" : 12414,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_tr.properties",
+      "size" : 9035,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_uk.properties",
+      "size" : 12613,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_vi.properties",
+      "size" : 9969,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_zh_CN.properties",
+      "size" : 9270,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/messagebundle_zh_TW.properties",
+      "size" : 9245,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/m/routing/RouteMatchedHandler.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 12103,
+      "compressedSize" : 3766,
+      "required" : ["sap/ui/base/Object.js", "sap/ui/core/routing/Router.js", "sap/ui/core/routing/History.js", "sap/m/InstanceManager.js", "sap/m/SplitContainer.js", "sap/m/NavContainer.js", "jquery.sap.global.js"],
+      "includes" : []
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+
+<!-- saved from url=(0087)https://openui5.netweaver.ondemand.com/resources/sap/me/themes/sap_bluecrystal/.theming -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">{
+  "sEntity" : "Theme",
+  "sId" : "sap_bluecrystal",
+  "oExtends" : "UI5.sap/me.base"
+}</pre></body></html>

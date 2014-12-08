@@ -1,0 +1,175 @@
+
+/*
+Parameter which stored a long css setting string for cvom's chart's internal use.
+*/
+
+@sapVizChartBackgroundColor: @sapUiBaseBG;
+
+@sapVizChartTooltipBackgroundColor: @sapVizChartBackgroundColor;
+
+@sapVizChartBackgroundStroke: #d8d8d8;
+
+@sapVizChartPieSectorStroke: @sapVizChartBackgroundColor;
+
+@sapVizChartHoverColor: #CCCCCC;
+
+@sapVizChartHoverline: @sapVizChartHoverColor;
+
+@sapVizChartHoverShadow: @sapVizChartHoverColor;
+
+@sapVizChartHoverShadowMouseDown: #808080; 
+
+@sapVizChartInnerWhisker: #000000;
+
+@sapVizChartTitleColor: @sapUiBaseText;
+
+@sapVizChartLabelColor: @sapUiBaseText;
+
+@sapVizChartAxisColor: @sapUiText;
+
+@sapVizChartAxisGridlineColor: @sapVizChartBackgroundStroke;
+
+@sapVizChartTooltipBorderStroke: @sapVizChartBackgroundStroke;
+
+@sapVizChartHiddenTitleColor: #a6a6a6;
+
+.sapVizChartTitleSettings () {
+	fill:@sapVizChartTitleColor;
+	font-family:@sapUiFontFamily;
+}
+
+.sapVizChartLabelSettings () {
+	fill:@sapVizChartLabelColor;
+	font-family:@sapUiFontFamily;
+}
+
+.sapVizChartHiddenTitleSettings(){
+  fill : @sapVizChartHiddenTitleColor;
+}
+
+.v-m-title .v-title{
+	.sapVizChartTitleSettings
+}
+
+.v-subtitle{
+	.sapVizChartTitleSettings
+}
+
+.v-title{
+	.sapVizChartTitleSettings
+}
+
+.v-hidden-title{
+	.sapVizChartHiddenTitleSettings
+}
+
+.v-pie .v-donut-title{
+	.sapVizChartTitleSettings
+}
+
+.v-m-tooltip .v-body-title{
+	.sapVizChartTitleSettings
+}
+
+.v-label{
+	.sapVizChartLabelSettings
+}
+
+.viz-polar-axis-label{
+	.sapVizChartLabelSettings
+}
+
+.v-datalabel{
+	.sapVizChartLabelSettings
+}
+
+.v-m-tooltip .v-body-label{
+	.sapVizChartLabelSettings
+}
+
+.v-m-tooltip .v-body-value{
+	.sapVizChartLabelSettings
+}
+
+.v-m-tooltip .v-footer-label{
+	.sapVizChartLabelSettings
+}
+
+.v-m-tooltip .v-footer-value{
+	.sapVizChartLabelSettings
+}
+
+.v-m-tooltip .v-separationline{
+	stroke: @sapVizChartTooltipBorderStroke;
+}
+
+.v-background-body{
+	fill:@sapVizChartBackgroundColor;
+}
+
+.v-background-border{
+	stroke : @sapVizChartBackgroundStroke;
+}
+
+.v-hoverline{
+	stroke:@sapVizChartHoverline;
+}
+
+.v-hovershadow{
+	fill:@sapVizChartHoverShadow;
+}
+
+.v-hovershadow-mousedown{
+	fill:@sapVizChartHoverShadowMouseDown;
+}
+
+.v-m-tooltip .v-background{
+	fill:@sapVizChartTooltipBackgroundColor;
+	stroke:@sapVizChartTooltipBorderStroke;
+}
+
+.v-m-tooltip .v-closeButton{
+  background-color:@sapVizChartTooltipBackgroundColor  !important;
+  border-color:@sapVizChartTooltipBorderStroke  !important;
+}
+
+.v-background{  
+	border-color : @sapVizChartTooltipBorderStroke!important;
+}
+
+.v-innerwhisker{
+	stroke:@sapVizChartInnerWhisker;
+}
+
+.v-categoryaxisline{
+	stroke:@sapVizChartAxisColor;
+}
+
+.v-valueaxisline{
+	stroke: @sapVizChartAxisColor;
+}
+
+.v-gridline{
+	stroke: @sapVizChartAxisGridlineColor;
+}
+
+.sapVizChart {
+	position: relative;
+}
+
+.sapVizChart.sapVizNoData {
+	/*background-color: @sapUiLightBG;*/
+	border: 1px solid @sapUiExtraLightBorder;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.sapVizChart.sapVizNoData > .sapVizNoDataDefault {
+	position: absolute;
+	display: block;
+	bottom: 50%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	white-space: nowrap;
+}

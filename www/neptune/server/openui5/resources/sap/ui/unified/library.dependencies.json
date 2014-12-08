@@ -1,0 +1,462 @@
+{
+  "modules" : [
+    {
+      "name" : "sap/ui/unified/Calendar.js",
+      "description" : "Provides control sap.ui.unified.Calendar.",
+      "size" : 55301,
+      "compressedSize" : 20152,
+      "required" : ["sap/ui/unified/library.js", "sap/ui/core/Control.js", "sap/ui/core/LocaleData.js", "sap/ui/core/delegate/ItemNavigation.js", "sap/ui/model/type/Date.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/CalendarLegend.js",
+      "description" : "Provides control sap.ui.unified.CalendarLegend.",
+      "size" : 7204,
+      "compressedSize" : 789,
+      "required" : ["sap/ui/unified/library.js", "sap/ui/core/Control.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/CalendarLegendItem.js",
+      "description" : "Provides control sap.ui.unified.CalendarLegendItem.",
+      "size" : 3957,
+      "compressedSize" : 429,
+      "required" : ["sap/ui/unified/library.js", "sap/ui/core/Element.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/CalendarLegendRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 3087,
+      "compressedSize" : 1526,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/CalendarRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 10398,
+      "compressedSize" : 5897,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/ContentSwitcher.js",
+      "description" : "Provides control sap.ui.unified.ContentSwitcher.",
+      "size" : 14266,
+      "compressedSize" : 2174,
+      "required" : ["sap/ui/unified/library.js", "sap/ui/core/Control.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/ContentSwitcherRenderer.js",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2014 SAP SE. All rights reserved",
+      "size" : 1847,
+      "compressedSize" : 1142,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/Currency.js",
+      "description" : "Provides control sap.ui.unified.Currency.",
+      "size" : 8662,
+      "compressedSize" : 1959,
+      "required" : ["sap/ui/unified/library.js", "sap/ui/core/Control.js", "sap/ui/core/format/NumberFormat.js", "sap/ui/core/LocaleData.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/CurrencyRenderer.js",
+      "description" : "Provides default renderer for control sap.ui.unified.Menu",
+      "size" : 1606,
+      "compressedSize" : 894,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/DateRange.js",
+      "description" : "Provides control sap.ui.unified.DateRange.",
+      "size" : 5072,
+      "compressedSize" : 657,
+      "required" : ["sap/ui/unified/library.js", "sap/ui/core/Element.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/DateTypeRange.js",
+      "description" : "Provides control sap.ui.unified.DateTypeRange.",
+      "size" : 4078,
+      "compressedSize" : 459,
+      "required" : ["sap/ui/unified/library.js", "sap/ui/unified/DateRange.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/FileUploader.js",
+      "description" : "Provides control sap.ui.unified.FileUploader.",
+      "size" : 81832,
+      "compressedSize" : 15738,
+      "required" : ["sap/ui/unified/library.js", "sap/ui/core/Control.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/FileUploaderParameter.js",
+      "description" : "Provides control sap.ui.unified.FileUploaderParameter.",
+      "size" : 4692,
+      "compressedSize" : 490,
+      "required" : ["sap/ui/unified/library.js", "sap/ui/core/Element.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/FileUploaderRenderer.js",
+      "description" : "Provides default renderer for control sap.ui.unified.FileUploader",
+      "size" : 2870,
+      "compressedSize" : 1746,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/Menu.js",
+      "description" : "Provides control sap.ui.unified.Menu.",
+      "size" : 40500,
+      "compressedSize" : 15788,
+      "required" : ["sap/ui/unified/library.js", "sap/ui/core/Control.js", "sap/ui/unified/MenuItemBase.js", "sap/ui/core/Popup.js", "jquery.sap.script.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/MenuItem.js",
+      "description" : "Provides control sap.ui.unified.MenuItem.",
+      "size" : 6349,
+      "compressedSize" : 1880,
+      "required" : ["sap/ui/unified/library.js", "sap/ui/unified/MenuItemBase.js", "sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/MenuItemBase.js",
+      "description" : "Provides control sap.ui.unified.MenuItemBase.",
+      "size" : 11126,
+      "compressedSize" : 1713,
+      "required" : ["sap/ui/unified/library.js", "sap/ui/core/Element.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/MenuRenderer.js",
+      "description" : "Provides default renderer for control sap.ui.unified.Menu",
+      "size" : 3304,
+      "compressedSize" : 1964,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/MenuTextFieldItem.js",
+      "description" : "Provides control sap.ui.unified.MenuTextFieldItem.",
+      "size" : 13881,
+      "compressedSize" : 5334,
+      "required" : ["sap/ui/unified/library.js", "sap/ui/unified/MenuItemBase.js", "sap/ui/core/ValueStateSupport.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/Shell.js",
+      "description" : "Provides control sap.ui.unified.Shell.",
+      "size" : 50381,
+      "compressedSize" : 18324,
+      "required" : ["sap/ui/unified/library.js", "sap/ui/core/Control.js", "sap/ui/Device.js", "jquery.sap.script.js", "jquery.sap.dom.js", "sap/ui/unified/SplitContainer.js", "sap/ui/core/Popup.js", "sap/ui/core/theming/Parameters.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/ShellHeadItem.js",
+      "description" : "Provides control sap.ui.unified.ShellHeadItem.",
+      "size" : 12868,
+      "compressedSize" : 2524,
+      "required" : ["sap/ui/unified/library.js", "sap/ui/core/Element.js", "sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/ShellHeadUserItem.js",
+      "description" : "Provides control sap.ui.unified.ShellHeadUserItem.",
+      "size" : 9035,
+      "compressedSize" : 1900,
+      "required" : ["sap/ui/unified/library.js", "sap/ui/core/Element.js", "sap/ui/core/IconPool.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/ShellOverlay.js",
+      "description" : "Provides control sap.ui.unified.ShellOverlay.",
+      "size" : 17691,
+      "compressedSize" : 6962,
+      "required" : ["sap/ui/unified/library.js", "sap/ui/core/Control.js", "sap/ui/core/Popup.js", "sap/ui/Device.js", "sap/ui/unified/Shell.js", "jquery.sap.script.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/ShellOverlayRenderer.js",
+      "description" : "Provides default renderer for control sap.ui.unified.ShellOverlay",
+      "size" : 2648,
+      "compressedSize" : 1805,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/ShellRenderer.js",
+      "description" : "Provides default renderer for control sap.ui.unified.Shell",
+      "size" : 5789,
+      "compressedSize" : 4421,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/SplitContainer.js",
+      "description" : "Provides control sap.ui.unified.SplitContainer.",
+      "size" : 22245,
+      "compressedSize" : 5678,
+      "required" : ["sap/ui/unified/library.js", "sap/ui/core/Control.js", "sap/ui/core/theming/Parameters.js", "jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/SplitContainerRenderer.js",
+      "description" : "Provides default renderer for control sap.ui.unified.SplitContainer",
+      "size" : 2360,
+      "compressedSize" : 1466,
+      "required" : ["jquery.sap.global.js"],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/library.js",
+      "description" : "Initialization Code and shared classes of library sap.ui.unified (1.24.2)",
+      "size" : 8110,
+      "compressedSize" : 2801,
+      "required" : ["sap/ui/core/Core.js", "sap/ui/core/library.js", "jquery.sap.global.js"],
+      "includes" : ["sap/ui/unified/CalendarDayType.js", "sap/ui/unified/ContentSwitcherAnimation.js"]
+    },
+    {
+      "name" : "sap/ui/unified/library.properties",
+      "size" : 1428,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle.properties",
+      "size" : 1257,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_ar.properties",
+      "size" : 1848,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_bg.properties",
+      "size" : 1773,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_ca.properties",
+      "size" : 960,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_cs.properties",
+      "size" : 944,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_da.properties",
+      "size" : 904,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_de.properties",
+      "size" : 947,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_el.properties",
+      "size" : 1847,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_en.properties",
+      "size" : 836,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_es.properties",
+      "size" : 948,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_et.properties",
+      "size" : 1006,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_fi.properties",
+      "size" : 1027,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_fr.properties",
+      "size" : 934,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_hi.properties",
+      "size" : 1641,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_hr.properties",
+      "size" : 890,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_hu.properties",
+      "size" : 1168,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_it.properties",
+      "size" : 923,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_iw.properties",
+      "size" : 1372,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_ja.properties",
+      "size" : 1343,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_ko.properties",
+      "size" : 1132,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_lt.properties",
+      "size" : 985,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_lv.properties",
+      "size" : 1023,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_nl.properties",
+      "size" : 917,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_no.properties",
+      "size" : 898,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_pl.properties",
+      "size" : 1049,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_pt.properties",
+      "size" : 892,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_ro.properties",
+      "size" : 916,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_ru.properties",
+      "size" : 1809,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_sh.properties",
+      "size" : 876,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_sk.properties",
+      "size" : 1110,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_sl.properties",
+      "size" : 900,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_sv.properties",
+      "size" : 988,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_th.properties",
+      "size" : 1756,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_tr.properties",
+      "size" : 957,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_uk.properties",
+      "size" : 1818,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_vi.properties",
+      "size" : 1226,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_zh_CN.properties",
+      "size" : 998,
+      "required" : [],
+      "includes" : []
+    },
+    {
+      "name" : "sap/ui/unified/messagebundle_zh_TW.properties",
+      "size" : 1030,
+      "required" : [],
+      "includes" : []
+    }
+  ]
+}
